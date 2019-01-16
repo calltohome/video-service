@@ -10,7 +10,7 @@ You will need:
 
 - Python (usually preinstalled in many Linux distributions)
 
-- PHP and Nginx server
+- PHP Hypertext Preprocessor and Nginx server
 
 - FFmpeg
 
