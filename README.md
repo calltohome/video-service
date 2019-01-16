@@ -20,7 +20,7 @@ You will need:
 
 Here is a guide on how to install PHP and Nginx for this project:
 
-* [Install PHP 7.1 with Nginx on Ubuntu 16.04]
+- [Install PHP-7-1 with Nginx on Ubuntu 16.04]: <https://www.rosehosting.com/blog/install-php-7-1-with-nginx-on-an-ubuntu-16-04-vps/>
 
 ### Installing Python (if needed) and FFmpeg
 
