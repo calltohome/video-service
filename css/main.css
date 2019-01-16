@@ -1,0 +1,252 @@
+.jw-reset {
+  margin-left:auto;
+  margin-right:auto;
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, minmax(100px, 200px));
+  grid-gap: 1rem;
+  grid-auto-flow: row;
+  height:100px;
+}
+
+
+.grid-item {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 4px 4px 4px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 4px;
+  width:100px;
+  height:100px;
+}
+
+iframe{
+    border-width: 0px;
+}
+
+.nav {
+	position:relative;
+	padding:0 0 20px 0;
+	margin:0 0 30px 0;
+	white-space: nowrap;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav a:hover {
+    color: #bfbfbf;
+}
+
+.nav a:active{
+    color: #5a5a5a;
+}
+
+.nav li {
+  display: inline;
+}
+
+li {
+  display: inline;
+  text-decoration:none;
+}
+
+.isokuva {
+background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 50%, #f5f7f9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 50%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+  background-position: center; 
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+}
+
+.isokuva .container {
+  position: relative;
+  top:100px;
+}
+
+.isokuva h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	/*font-size:48px;*/
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.isokuva p {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.isokuva a {
+  color: #fff;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.teksti {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+	margin:0;
+    height:100vh;
+}
+
+.teksti h2 {
+	font-weight: 100;
+    color: #393c3d;
+    font-size: 24px;
+	text-align: center;
+	padding:10px 0 0 0;
+	margin:0;
+}
+
+.teksti p {
+    font-size: 15px;
+    margin-bottom: 20px;
+	text-align: center;
+}
+
+.container {
+	margin: auto;
+    width: 50%;
+    padding: 0 0 50px 0;
+}
+
+.menu-container {
+	margin: auto;
+    width: 50%;
+    padding: 0 0 0 0;
+}
+
+.pull-right {
+    float: right;
+	padding:0;
+	white-space: normal;
+	display:inline;
+	margin-left:0;
+	position:relative;
+}
+
+.pull-right a{
+	padding:0;
+}
+
+.pull-left {
+    float: left;
+	padding:0;
+}
+
+.pull-left a {
+	padding:0 10px 0 10px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	margin:0;
+}
+
+.col-md-1 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	float:left;
+}
+
+.col-md-2 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 26px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+@media (min-width: 992px){
+.col-md-1 {
+    width: 33.33333333%;
+}
+
+.col-md-2 {
+    width: 33.33333333%;
+}
+
+.isokuva h1 {
+  text-align: justify;
+  display:flex;
+  color: #fff;
+  text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+	/*font-size:48px;*/
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow:hidden;
+  font-size: 48px;
+}
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+	box-sizing: border-box;
+	
+}
+
+.row2{
+	margin-left: -15px;
+	margin-right: -15px;
+	box-sizing: border-box;
+	overflow:hidden;
+}
+
+.thumbnail {
+	padding: 4px 4px 0 4px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.thumbnail2 {
+	padding: 4px 4px 0 4px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+img { 
+    width:100%; 
+}
