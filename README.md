@@ -6,13 +6,13 @@ Video-Service is for uploading, viewing and live streaming video.
 
 You will need: 
 
-    - A Linux distribution of your choice (Ubuntu 18.04 used in this case and is preferred)
+- A Linux distribution of your choice (Ubuntu 18.04 used in this case and is preferred)
 
-    - Python (usually preinstalled in many Linux distributions)
+- Python (usually preinstalled in many Linux distributions)
 
-    - PHP and Nginx server
+- PHP and Nginx server
 
-    - FFmpeg
+- FFmpeg
 
 ## Installing
 
